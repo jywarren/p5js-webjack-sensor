@@ -2,7 +2,10 @@
 
 A simple demo to show how to read from a sensor (connected to an [Arduino](https://arduino.cc)) in [p5js](https://p5js.org), and make a simple visualization.
 
-Improve on this! use better visuals, sound...? Happy to accept PRs to make a little gallery of sketches!
+
+## Share your own sketches!
+
+Improve on this! Use better visuals, sound...? We;re happy to accept PRs to make a little gallery of sketches!
 
 
 ## Usage
