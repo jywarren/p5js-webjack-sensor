@@ -5,7 +5,9 @@ A simple demo to show how to read from a sensor (connected to an [Arduino](https
 
 ## Share your own sketches!
 
-Improve on this! Use better visuals, sound...? We;re happy to accept PRs to make a little gallery of sketches!
+Improve on this! Use better visuals, sound...? We're happy to [accept PRs](https://github.com/jywarren/p5js-webjack-sensor/pulls) to make a little gallery of sketches!
+
+Read more at this blog post: https://publiclab.org/notes/warren/02-08-2018/visualize-live-sensor-data-with-p5js-and-an-arduino
 
 
 ## Usage
