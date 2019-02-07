@@ -41,9 +41,10 @@ https://www.youtube.com/watch?v=GtJW1Dlt3cg
 
 ## Connect to a sensor with an Arduino
 
-To use a real sensor, load this sketch onto an Arduino: 
+To use a real sensor, load one of these sketches onto an Arduino: 
 
-https://create.arduino.cc/editor/jywarren/023158d8-be51-4c78-99ff-36c63126b554/preview
+* Shinyei particulate air sensor: [create.arduino.cc link](https://create.arduino.cc/editor/jywarren/023158d8-be51-4c78-99ff-36c63126b554/preview)
+* Plantower particulate air sensor: [gist link](https://gist.github.com/jywarren/d9cdc98a4a50d8505ad04521e45ce59d), [create.arduino.cc link](https://create.arduino.cc/editor/jywarren/ce8d09fc-3f5f-4d6b-bb0f-4aea24838fbe/preview)
 
 WebJack will output audio from pin 3 + ground. Use microphone or an audio cable.
 
