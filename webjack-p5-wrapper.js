@@ -1,4 +1,5 @@
-function receiveSensorData(handler) {
+function receiveSensorData(handler, webjackProfile) {
+  webjackProfile = webjackProfile || "SoftModem";
   // nonsense to start up audio and get past the "click to play" policy
   var ac = getAudioContext();
   ac.suspend().then(function() {
@@ -9,7 +10,7 @@ function receiveSensorData(handler) {
       myButton.remove();
 
       // https://github.com/publiclab/webjack/blob/master/src/profiles.js
-      var profile = WebJack.Profiles.SoftModem;
+      var profile = WebJack.Profiles[webjackProfile];
       var connection = new WebJack.Connection(profile);
 
       // runs every time a signal is 'heard'
